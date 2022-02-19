@@ -1,0 +1,111 @@
+body{
+    font-family: 'TheGoodMonolith', sans-serif;
+    background-color: blue;
+}
+
+.sign{
+    color: white;
+    padding-left: 7.5rem;
+}
+
+.full-signin{
+    padding-top: 5rem;
+}
+
+.ct-nav{
+    display: flex;
+    text-align: right;
+    padding-right: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+/* target main logo */
+.ct-nav h3{
+    margin-left: 2vw;
+    text-align: center;
+    background-color: red;
+    color: black;
+    border-left: solid 4px red;
+    border-right: solid 4px red;
+    margin-top: 9px;
+    font-size: 32px;
+    box-shadow: 0px 4px 0px red;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+
+}
+
+ul#horizontal-list a:nth-last-child(1)
+{
+    border: 3px solid red;
+    margin-right: 0.2vw;
+    box-shadow: 6px 6px 0px black;
+    background-color: red;
+}
+
+.container{
+    padding-top: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    color: white;
+}
+
+.header-text{
+    text-align: left;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+#displaychar{
+    text-align: center;
+    margin-top: 5rem;
+    color: white;
+}
+
+#api-image, #graphql-image, #database-image{
+    margin-bottom: 10vh;
+    color: black;
+    width: 250px;
+    max-width: 100%;
+}
+
+#features-section{
+    margin: 8vw;
+    
+    color: white;
+    background-color: blue;
+    align-items: baseline;
+    text-align: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-top: 3vw;
+    background-color: red;
+}
+
+#footer-logo{
+    max-width: 400px;
+
+}
+
+#footer{
+    border-top: solid 3px black;
+    margin-top: 20vh;
+    color: rgb(0, 0, 0);
+}

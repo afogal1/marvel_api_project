@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <img src="../static/images/front_page.jpeg" alt="chars" id="marvel-char">
+    </div>
+    <div class="row header-text">
+        <h1>Marvel Characters</h1>
+        <h3>The Future of API</h3>
+    </div>
+</div>
+
+<section class="row" id="displaychar">
+    <div>
+        <h2>Display Your Favorite Characters</h2>
+    </div>
+</section>
+
+<section class="row" id="features-section">
+    <div class="col-12 col-md-4">
+        <img src="../static/images/captain.jpeg" alt="API image" id="api-image">
+        <h4>Dedicated API Routes</h4>
+        <p>
+            if you are a fan of using traditional api routes, we have those
+        </p>
+    </div>
+
+    <div class="col-12 col-md-4">
+        <img src="../static/images/hulk.jpeg" alt="graphql" id="graphql-image">
+        <h4>GraphQL API Route</h4>
+        <p>
+            If you want all data from one endpoint we got what you need
+        </p>
+    </div>
+
+    <div class="col-4 col-md-4">
+        <img src="../static/images/iron_man.jpeg" alt="db" id="database-image">
+        <h4>Backed by postgresql</h4>
+        <p>
+            Data at your fingertips
+        </p>
+    </div>
+</section>
+
+<footer class="footer-grid" id="footer">
+    <div class="footer-ele">
+        <img src="../static/images/shang.jpeg" alt="footer logo" id="footer-logo">
+    </div>
+    <div class="footer-ele">
+        <div class="footer-text-flex">
+            <img src="../static/images/thor2.jpeg" alt="footer logo" id="footer-logo">
+        </div>
+    </div>
+    <div class="footer-ele">
+        <div class="footer-text-flex">
+            <h4></h4>
+            <p>Sign in</p>
+            <p>Sign out</p>
+            <p>Log Out</p>
+            <p>Profile</p>
+            <p>Home</p>
+            <p>API</p>
+
+        </div>
+    </div>
+    <div class="footer-ele">
+        <div class="footer-text-flex">
+            <img src="../static/images/daredevil.jpeg" alt="footer logo" id="footer-logo">
+        </div>
+    </div>
+    
+</footer>
+
+
+{% endblock content %}
